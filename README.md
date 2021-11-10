@@ -1,5 +1,6 @@
 # Tienda_v2
 SPA responsiva desarrollada con HTML5, Bootstrap y Vuejs. Consume la API de Openweather.org con Axios. Consume la API REST de Firebase con Async y Await. Se aplican Rutas Protegidas con la API AUTH de Firebase.
+El proyecto está publicado en: https://wizardly-poincare-de4458.netlify.app/
 
 ## Project setup
 ```
