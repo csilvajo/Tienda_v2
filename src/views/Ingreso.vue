@@ -21,8 +21,8 @@
         </div>        
         <button type="button" class="btn btn-success btn-sm btn-block" :disabled="bloquearBoton" @click="procesarIngreso">Ingresar</button>
       </form>
-      <hr>
-      <a href="registro" class="link">¿No tienes cuenta? Puedes registrarte aca</a>
+      <hr>      
+      <a href="/registro" class="link">¿No tienes cuenta? Puedes registrarte aca</a>
     </div>    
   </div>
 </template>
