@@ -21,7 +21,8 @@
         </div>        
         <button type="button" class="btn btn-success btn-sm btn-block" :disabled="bloquearBoton" @click="procesarIngreso">Ingresar</button>
       </form>
-      <hr>      
+      <hr> 
+      <router-link to="/registro" class="dropdown-item"><i class="fa fa-plus-circle" /> Registrar una nueva cuenta</router-link>     
       <a href="/registro" class="link">¿No tienes cuenta? Puedes registrarte aca</a>
     </div>    
   </div>
