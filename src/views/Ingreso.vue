@@ -22,7 +22,7 @@
         <button type="button" class="btn btn-success btn-sm btn-block" :disabled="bloquearBoton" @click="procesarIngreso">Ingresar</button>
       </form>
       <hr> 
-      <router-link to="/registro" class="link"><i class="fa fa-plus-circle" /> ¿No tienes cuenta? Puedes registrarte aca</router-link>
+      <router-link to="/registro" class="link">¿No tienes cuenta? Puedes registrarte aca</router-link>
     </div>    
   </div>
 </template>
