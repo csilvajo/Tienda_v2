@@ -45,7 +45,7 @@
             <h5 class="card-title">Resumen de la compra</h5>
             <p class="card-text">Cantidad de artículos: {{resumenCompra.cantidadArticulos}}</p>
             <p class="card-text">Total a pagar: $ {{Number(resumenCompra.totalCompra).toLocaleString("es")}}</p>
-            <button type="button" class="btn btn-success btn-sm btn-block" @click="procesarVenta"><i class="fa fa-plus-square" /> Comprar</button>
+            <button type="button" class="btn btn-success btn-sm btn-block" @click="procesarVenta"><i class="fa fa-plus-square" /> Pagar</button>
           </div> 
         </div>
       </div>

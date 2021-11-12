@@ -20,6 +20,9 @@
         <li class="nav-item">
           <router-link to="/carroDeCompras" class="btn btn-info btn-block">Carrito</router-link>
         </li>
+        <li class="nav-item">
+          <VentanaModal />
+        </li>       
         <li class="nav-item dropdown">
           <!--menu de opciones-->  
           <a class="btn btn-dark btn-block dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -27,6 +30,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item text-center"><i class="fa fa-user-circle fa-5x"/></a>
+            
             <router-link to="/ingreso" class="dropdown-item"><i class="fa fa-sign-in" /> Iniciar sesión</router-link>
             <router-link to="/registro" class="dropdown-item"><i class="fa fa-plus-circle" /> Registrar una nueva cuenta</router-link>
             <button type="button" class="dropdown-item" @click="cerrarSesionAction"><i class="fa fa-sign-out"/> Salir</button>
@@ -51,9 +55,13 @@
 //se importa axios para el manejo de api, cliente HTTP basado en promesas para el navegador y node.js
 import axios from "axios";
 import { mapActions } from "vuex";
+import VentanaModal from "../views/VentanaModal.vue"
 
 export default {
   name: "BarraNavegacion",
+  components: {
+    VentanaModal,
+  },
   data() {
     return {
       ciudad: null,

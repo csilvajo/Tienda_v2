@@ -37,4 +37,10 @@ export default {
   font-weight: bolder;
   font-size: 15px;
 }
+
+.contenedor {  
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 30px;   
+}
 </style>
